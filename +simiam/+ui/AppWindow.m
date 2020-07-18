@@ -79,6 +79,7 @@ classdef AppWindow < handle
             else
                 icon_url = strrep(['file:/' icon_file],'\','/');
             end
+%           obj.motd_ = ['<html><div style="text-align: center"><img src="' icon_url '"/>' ...
             obj.motd_ = ['<html><div style="text-align: center"><img src="' icon_url '"/>' ...
                          '<br>Welcome to <b>Sim.I.am</b>, a robot simulator.' ...
                          '<br>This is <em>Sim the Fifth</em>, your companion for control theory and robotics.' ...
@@ -253,7 +254,8 @@ classdef AppWindow < handle
             else
                 icon_url = strrep(['file:/' icon_file],'\','/');
             end
-            button_string = ['<html><img src="' icon_url '"/></html>'];
+            button_string = ['<html><img src="' icon_url '" "height=32" "width=32"></html>'];
+%           button_string = ['<html><img src="' icon_url '"/></html>'];
             set(ui_button, 'String', button_string);
         end
         
