@@ -18,6 +18,10 @@ It was later found that this version is not supported by MATLAB 2020a and later 
 * MATLAB R2020a or later
 * Simulink
 
+## Contributing
+
+Feel free to contribute and do a PR to this project. If you find some issues or bugs regarding this application, drop them [here](https://github.com/dionesiusap/simiam-20/issues). You can also request new features.
+
 ## Screenshots
 
 ![ScreenShot](https://raw.githubusercontent.com/SayanSeth/Sim.I.am/master/Screenshot.png)
